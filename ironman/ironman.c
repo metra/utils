@@ -21,7 +21,7 @@ int main()
 		printf("\r%d:%d.%d ", min, sec, millis);
 		fflush(stdout);
 		millis_slept += 10;
-		nanosleep(&sleep_time, NULL)
+		nanosleep(&sleep_time, NULL);
 	}
 
 	return 0;
